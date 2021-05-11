@@ -69,6 +69,8 @@
   <ItemGroup>
     <Content Include="Assets\logo-nobg.png" />
     <Content Include="View\css\style.css" />
+    <Content Include="View\home\Home.aspx" />
+    <Content Include="View\home\styleHome.css" />
     <Content Include="View\login\Login.aspx" />
     <Content Include="View\login\styleLogin.css" />
     <Content Include="View\register\Register.aspx" />
@@ -76,6 +78,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\home\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\home\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
     <Compile Include="View\login\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
