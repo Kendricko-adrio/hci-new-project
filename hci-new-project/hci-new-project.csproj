@@ -74,6 +74,7 @@
     <Content Include="View\login\Login.aspx" />
     <Content Include="View\login\styleLogin.css" />
     <Content Include="View\register\Register.aspx" />
+    <Content Include="View\register\styleRegister.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
