@@ -67,10 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\BackgroundHCI.jpg" />
+    <Content Include="Assets\Kurang.png" />
     <Content Include="Assets\logo-nobg.png" />
+    <Content Include="Assets\logohci.png" />
+    <Content Include="Assets\math.jpg" />
+    <Content Include="Assets\SamaDengan.png" />
+    <Content Include="Assets\Tambah.png" />
     <Content Include="View\css\style.css" />
     <Content Include="View\login\Login.aspx" />
     <Content Include="View\login\styleLogin.css" />
+    <Content Include="View\math-main\MathMain.aspx" />
+    <Content Include="View\math-main\styleMathMain.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -88,6 +96,13 @@
     </Compile>
     <Compile Include="View\Master.Master.designer.cs">
       <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="View\math-main\MathMain.aspx.cs">
+      <DependentUpon>MathMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\math-main\MathMain.aspx.designer.cs">
+      <DependentUpon>MathMain.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

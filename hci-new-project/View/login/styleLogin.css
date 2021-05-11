@@ -1,9 +1,10 @@
-﻿main {
+﻿
+main {
     height: 100%;
     display: flex;
     justify-content: center;
     align-content: center;
-    background: url('../../Assets/login-bg.png');
+    background: url('../../Assets/BackgroundHCI.jpg');
 }
 
 input:focus, textarea:focus, select:focus {

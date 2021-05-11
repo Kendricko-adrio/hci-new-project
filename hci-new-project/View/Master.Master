@@ -12,7 +12,7 @@
 <body>
     <form id="form1" runat="server" class="server">
         <header>
-            <asp:Image ImageUrl="~/Assets/logo-nobg.png" runat="server" class="logo"/>
+            <asp:Image ImageUrl="~/Assets/logohci.png" runat="server" class="logo"/>
             <%--<img src="../Assets/logo-nobg.png" alt="Alternate Text" class="logo" />--%>
         </header>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
