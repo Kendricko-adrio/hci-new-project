@@ -4,21 +4,15 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <main>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <div class="middle-container">
             <div class="middle-container-items">
-                <h1>s</h1>
+                <asp:Image ImageUrl="../../Assets/Math.png" runat="server" />
             </div>
             <div class="middle-container-items">
-                <h1>s</h1>
+                <asp:Image ImageUrl="../../Assets/Science.png" runat="server" />
             </div>
             <div class="middle-container-items">
-                <h1>s</h1>
+                <asp:Image ImageUrl="../../Assets/Alphabeth.png" runat="server" />
             </div>
         </div>
     </main>
