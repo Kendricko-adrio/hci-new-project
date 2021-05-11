@@ -1,0 +1,42 @@
+﻿body {
+}
+
+main {
+    height: 100%;
+}
+
+    main .comp {
+        display: flex;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 100px;
+        height: 90%;
+        flex-direction: row;
+    }
+
+        main .comp .comp-soal {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            padding: 50px;
+            background-color: blue;
+            border-radius: 30px;
+            height: 100%;
+            width: 40%;
+        }
+
+            main .comp .comp-soal .comp-soal-vertical {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+
+                main .comp .comp-soal .comp-soal-vertical .comp-soal-vertical-gambarKiri {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                main .comp .comp-soal .comp-soal-vertical .comp-soal-vertical-image {
+                    height: 300px;
+                    width: 300px;
+                }
