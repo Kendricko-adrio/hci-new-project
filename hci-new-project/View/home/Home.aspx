@@ -6,13 +6,19 @@
     <main>
         <div class="middle-container">
             <div class="middle-container-items">
-                <asp:Image ImageUrl="../../Assets/Math.png" runat="server" />
+                <a href="#">
+                    <asp:Image ImageUrl="../../Assets/Math.png" runat="server" />
+                </a>
             </div>
-            <div class="middle-container-items">
-                <asp:Image ImageUrl="../../Assets/Science.png" runat="server" />
+            <div class="middle-container-items science">
+                <a href="#">
+                    <asp:Image ImageUrl="../../Assets/Science.png" runat="server" />
+                </a>
             </div>
-            <div class="middle-container-items">
-                <asp:Image ImageUrl="../../Assets/Alphabeth.png" runat="server" />
+            <div class="middle-container-items alphabet">
+                <a href="#">
+                    <asp:Image ImageUrl="../../Assets/Alphabeth.png" runat="server" />
+                </a>
             </div>
         </div>
     </main>
