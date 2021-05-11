@@ -101,7 +101,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="View\NewFolder1\" />
+    <Folder Include="register\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
