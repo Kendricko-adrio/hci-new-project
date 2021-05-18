@@ -68,11 +68,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\logo-nobg.png" />
+    <Content Include="Assets\orange.png" />
+    <Content Include="Assets\SamaDengan.png" />
+    <Content Include="Assets\Tambah.png" />
     <Content Include="View\css\style.css" />
     <Content Include="View\home\Home.aspx" />
     <Content Include="View\home\styleHome.css" />
     <Content Include="View\login\Login.aspx" />
     <Content Include="View\login\styleLogin.css" />
+    <Content Include="View\mathSoal\1.aspx" />
+    <Content Include="View\mathSoal\styleSoal.css" />
     <Content Include="View\register\Register.aspx" />
     <Content Include="View\register\styleRegister.css" />
     <Content Include="Web.config" />
@@ -99,6 +104,13 @@
     </Compile>
     <Compile Include="View\Master.Master.designer.cs">
       <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="View\mathSoal\1.aspx.cs">
+      <DependentUpon>1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\mathSoal\1.aspx.designer.cs">
+      <DependentUpon>1.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\register\Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
