@@ -1,0 +1,115 @@
+﻿* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:30pt;
+}
+
+body {
+}
+
+main {
+    height: 100%;
+}
+
+    main .comp {
+        display: flex;
+        margin: 5%;
+        height: 95%;
+        flex-direction: row;
+    }
+
+        main .comp .comp-soal {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            margin-right: 5%;
+            background-color: blue;
+            border-radius: 30px;
+            height: 100%;
+            width: 50%;
+        }
+
+            main .comp .comp-soal .comp-soal-vertical {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+
+                main .comp .comp-soal .comp-soal-vertical .comp-soal-vertical-gambarKiri {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                main .comp .comp-soal .comp-soal-vertical .comp-soal-vertical-image {
+                    height: 150px;
+                    width: 150px;
+                }
+
+        main .comp .comp-answer {
+            display: flex;
+            margin-left: 5%;
+            height: 100%;
+            width: 50%;
+            flex-direction: column;
+        }
+
+            main .comp .comp-answer .answer-horizontal {
+                display: flex;
+                flex-direction: row;
+                height: 30%;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+                main .comp .comp-answer .answer-horizontal .answer-horizontal-inside {
+                    display: flex;
+                    align-items: center;
+                    justify-content:center;
+                    margin: 2%;
+                    height: 90%;
+                    width: 90%;
+                    border-radius: 30px;
+                    background-color: green;
+                }
+
+                main .comp .comp-answer .answer-horizontal .answer-horizontal-inside:hover {
+                    background-color:darkgreen;
+                }
+
+                main .comp .comp-answer .answer-horizontal .answer-horizontal-inside:active {
+                    background-color:lime;
+                }
+
+            main .comp .comp-answer .comp-correctAnswer {
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                border-radius: 30px;
+                margin-top:10%;
+                height: 70%;
+                width: 100%;
+                background-color: red;
+                visibility:hidden;
+            }
+
+                main .comp .comp-answer .comp-correctAnswer .comp-correctAnswer-vertical {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                }
+
+                    main .comp .comp-answer .comp-correctAnswer .comp-correctAnswer-vertical .comp-correctAnswer-vertical-gambarKiri {
+                        display: flex;
+                        flex-direction: column;
+                        align-items:center;
+                    }
+
+                    main .comp .comp-answer .comp-correctAnswer .comp-correctAnswer-vertical .comp-correctAnswer-vertical-gambarKanan {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+
+                    main .comp .comp-answer .comp-correctAnswer .comp-correctAnswer-vertical .comp-correctAnswer-vertical-image {
+                        height: 150px;
+                        width: 150px;
+                    }
