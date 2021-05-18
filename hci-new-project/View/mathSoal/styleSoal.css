@@ -34,7 +34,7 @@ main {
                 align-items: center;
             }
 
-                main .comp .comp-soal .comp-soal-vertical .comp-soal-vertical-gambarKiri {
+                main .comp .comp-soal .comp-soal-vertical .comp-soal-vertical-gambar {
                     display: flex;
                     flex-direction: column;
                 }
@@ -60,10 +60,10 @@ main {
                 align-items: center;
             }
 
-                main .comp .comp-answer .answer-horizontal .answer-horizontal-inside {
+                main .comp .comp-answer .answer-horizontal .answer-horizontal-correctAnswer {
                     display: flex;
                     align-items: center;
-                    justify-content:center;
+                    justify-content: center;
                     margin: 2%;
                     height: 90%;
                     width: 90%;
@@ -71,12 +71,31 @@ main {
                     background-color: green;
                 }
 
-                main .comp .comp-answer .answer-horizontal .answer-horizontal-inside:hover {
-                    background-color:darkgreen;
+                main .comp .comp-answer .answer-horizontal .answer-horizontal-wrongAnswer {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 2%;
+                    height: 90%;
+                    width: 90%;
+                    border-radius: 30px;
+                    background-color: green;
                 }
 
-                main .comp .comp-answer .answer-horizontal .answer-horizontal-inside:active {
-                    background-color:lime;
+                main .comp .comp-answer .answer-horizontal .answer-horizontal-wrongAnswer:hover {
+                    background-color: darkgreen;
+                }
+
+                main .comp .comp-answer .answer-horizontal .answer-horizontal-correctAnswer:hover {
+                    background-color: darkgreen;
+                }
+
+                main .comp .comp-answer .answer-horizontal .answer-horizontal-correctAnswer:active {
+                    background-color: lime;
+                }
+
+                main .comp .comp-answer .answer-horizontal .answer-horizontal-wrongAnswer:active {
+                    background-color: red;
                 }
 
             main .comp .comp-answer .comp-correctAnswer {
@@ -97,16 +116,10 @@ main {
                     align-items: center;
                 }
 
-                    main .comp .comp-answer .comp-correctAnswer .comp-correctAnswer-vertical .comp-correctAnswer-vertical-gambarKiri {
+                    main .comp .comp-answer .comp-correctAnswer .comp-correctAnswer-vertical .comp-correctAnswer-vertical-gambar {
                         display: flex;
                         flex-direction: column;
                         align-items:center;
-                    }
-
-                    main .comp .comp-answer .comp-correctAnswer .comp-correctAnswer-vertical .comp-correctAnswer-vertical-gambarKanan {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
                     }
 
                     main .comp .comp-answer .comp-correctAnswer .comp-correctAnswer-vertical .comp-correctAnswer-vertical-image {
