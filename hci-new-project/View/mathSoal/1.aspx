@@ -13,7 +13,7 @@
         <div class="comp">
             <div class="comp-soal">
                 <div class="comp-soal-vertical">
-                    <div class="comp-soal-vertical-gambarKiri">
+                    <div class="comp-soal-vertical-gambar">
                         <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/orange.png" runat="server" />
                         <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/orange.png" runat="server" />
                     </div>
@@ -24,33 +24,33 @@
             </div>
             <div class="comp-answer">
                 <div class="answer-horizontal">
-                    <div class="answer-horizontal-inside">
+                    <div class="answer-horizontal-wrongAnswer">
                         <h3>1</h3>
                     </div>
-                    <div class="answer-horizontal-inside">
+                    <div class="answer-horizontal-wrongAnswer">
                         <h3>2</h3>
                     </div>
-                    <div ID="correctAnswer" class="answer-horizontal-inside" onmousedown="showAnswer()">
+                    <div ID="correctAnswer" class="answer-horizontal-correctAnswer" onmousedown="showAnswer()">
                         <h3>3</h3>
                     </div>
-                    <div class="answer-horizontal-inside">
+                    <div class="answer-horizontal-wrongAnswer">
                         <h3>4</h3>
                     </div>
                 </div>
                 <div ID="Answer" class="comp-correctAnswer">
                     <div class="comp-correctAnswer-vertical">
-                        <div class="comp-correctAnswer-vertical-gambarKiri">
+                        <div class="comp-correctAnswer-vertical-gambar">
                             <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/orange.png" runat="server" />
                             <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/orange.png" runat="server" />
                             2
                         </div>
                         <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Tambah.png" runat="server" />
-                        <div class="comp-correctAnswer-vertical-gambarKanan">
+                        <div class="comp-correctAnswer-vertical-gambar">
                             <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/orange.png" runat="server" />
                             1
                         </div>
                         <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/SamaDengan.png" runat="server" />
-                                                <div class="comp-correctAnswer-vertical-gambarKiri">
+                        <div class="comp-correctAnswer-vertical-gambar">
                             <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/orange.png" runat="server" />
                             <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/orange.png" runat="server" />
                             <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/orange.png" runat="server" />
