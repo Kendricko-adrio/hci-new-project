@@ -70,6 +70,7 @@
     <Content Include="Assets\Apple.png" />
     <Content Include="Assets\Carrot.png" />
     <Content Include="Assets\logo-nobg.png" />
+    <Content Include="Assets\pembagian.png" />
     <Content Include="View\css\style.css" />
     <Content Include="View\home\Home.aspx" />
     <Content Include="View\home\styleHome.css" />
