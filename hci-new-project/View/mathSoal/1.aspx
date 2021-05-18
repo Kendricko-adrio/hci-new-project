@@ -1,9 +1,16 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/View/Master.Master" AutoEventWireup="true" CodeBehind="1.aspx.cs" Inherits="hci_new_project.View.mathquestion._1" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script>
-        function showAnswer() {
+        var correctAudio = new Audio("../../Assets/happykids.mp3");
+        var wrongAudio = new Audio("../../Assets/Buzzer.mp3")
+
+        function goodAnswer() {
             document.getElementById("Answer").style.visibility = "visible";
+            correctAudio.play();
+        }
+
+        function wrongAnswer() {
+            wrongAudio.play();
         }
     </script>
     <link href="styleSoal.css" rel="stylesheet" />
@@ -24,16 +31,16 @@
             </div>
             <div class="comp-answer">
                 <div class="answer-horizontal">
-                    <div class="answer-horizontal-wrongAnswer">
+                    <div class="answer-horizontal-wrongAnswer" onmousedown="wrongAnswer()">
                         <h3>1</h3>
                     </div>
-                    <div class="answer-horizontal-wrongAnswer">
+                    <div class="answer-horizontal-wrongAnswer" onmousedown="wrongAnswer()">
                         <h3>2</h3>
                     </div>
-                    <div ID="correctAnswer" class="answer-horizontal-correctAnswer" onmousedown="showAnswer()">
+                    <div ID="correctAnswer" class="answer-horizontal-correctAnswer" onmousedown="goodAnswer()">
                         <h3>3</h3>
                     </div>
-                    <div class="answer-horizontal-wrongAnswer">
+                    <div class="answer-horizontal-wrongAnswer" onmousedown="wrongAnswer()">
                         <h3>4</h3>
                     </div>
                 </div>

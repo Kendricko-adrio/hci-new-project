@@ -68,7 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Apple.png" />
+    <Content Include="Assets\Buzzer.mp3" />
     <Content Include="Assets\Carrot.png" />
+    <Content Include="Assets\happykids.mp3" />
     <Content Include="Assets\Kali.png" />
     <Content Include="Assets\logo-nobg.png" />
     <Content Include="Assets\pembagian.png" />
@@ -81,6 +83,7 @@
     <Content Include="View\mathSoal\2.aspx" />
     <Content Include="View\mathSoal\3.aspx" />
     <Content Include="View\mathSoal\4.aspx" />
+    <Content Include="View\mathSoal\5.aspx" />
     <Content Include="View\mathSoal\styleSoal.css" />
     <Content Include="View\register\Register.aspx" />
     <Content Include="View\register\styleRegister.css" />
@@ -136,6 +139,13 @@
     </Compile>
     <Compile Include="View\mathSoal\4.aspx.designer.cs">
       <DependentUpon>4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\mathSoal\5.aspx.cs">
+      <DependentUpon>5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\mathSoal\5.aspx.designer.cs">
+      <DependentUpon>5.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\register\Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
