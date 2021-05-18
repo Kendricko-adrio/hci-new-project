@@ -11,6 +11,7 @@ namespace hci_new_project.View.mathquestion
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+ 
 
         }
     }
