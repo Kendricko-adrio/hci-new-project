@@ -21,42 +21,42 @@
             <div class="comp-soal">
                 <div class="comp-soal-vertical">
                     <div class="comp-soal-vertical-gambar">
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                     </div>
                     <div class="comp-soal-vertical-gambar">
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                     </div>
                     <div class="comp-soal-vertical-gambar">
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                     </div>
                     <div class="comp-soal-vertical-gambar">
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                     </div>
                     <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/pembagian.png" runat="server" />
                     <div class="comp-soal-vertical-gambar">
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                     </div>
-                    <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/SamaDengan.png" runat="server" />
+                    <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/SamaDengan.png" runat="server" />
                 </div>
             </div>
             <div class="comp-answer">

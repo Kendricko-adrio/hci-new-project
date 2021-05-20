@@ -67,13 +67,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\Apple.png" />
+    <Content Include="Assets\Math\Apple.png" />
+    <Content Include="Assets\Science\belalai-gajah.png" />
     <Content Include="Assets\Buzzer.mp3" />
-    <Content Include="Assets\Carrot.png" />
+    <Content Include="Assets\Math\Carrot.png" />
+    <Content Include="Assets\Science\gading-gajah.png" />
     <Content Include="Assets\happykids.mp3" />
-    <Content Include="Assets\Kali.png" />
+    <Content Include="Assets\Math\Kali.png" />
     <Content Include="Assets\logo-nobg.png" />
-    <Content Include="Assets\pembagian.png" />
+    <Content Include="Assets\Math\pembagian.png" />
     <Content Include="View\css\style.css" />
     <Content Include="View\home\Home.aspx" />
     <Content Include="View\home\styleHome.css" />
@@ -87,6 +89,9 @@
     <Content Include="View\mathSoal\styleSoal.css" />
     <Content Include="View\register\Register.aspx" />
     <Content Include="View\register\styleRegister.css" />
+    <Content Include="View\scienceSoal\2.aspx" />
+    <Content Include="View\scienceSoal\1.aspx" />
+    <Content Include="View\scienceSoal\styleSoal.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -153,6 +158,20 @@
     </Compile>
     <Compile Include="View\register\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\scienceSoal\2.aspx.cs">
+      <DependentUpon>2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\scienceSoal\2.aspx.designer.cs">
+      <DependentUpon>2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\scienceSoal\1.aspx.cs">
+      <DependentUpon>1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\scienceSoal\1.aspx.designer.cs">
+      <DependentUpon>1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
