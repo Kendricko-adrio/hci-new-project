@@ -1,29 +1,40 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/View/Master.Master" AutoEventWireup="true" CodeBehind="4.aspx.cs" Inherits="hci_new_project.View.scienceSoal._4" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <script>
+        var correctAudio = new Audio("../../Assets/happykids.mp3");
+        var wrongAudio = new Audio("../../Assets/Buzzer.mp3")
+
+        function goodAnswer() {
+            document.getElementById("Answer").style.visibility = "visible";
+            correctAudio.play();
+        }
+
+        function wrongAnswer() {
+            wrongAudio.play();
+        }
+    </script>
+    <link href="styleSoal.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <main>
         <div class="container">
             <div class="left-container">
                 <div class="soal">
-                    <asp:Image CssClass="image" ImageUrl="~/Assets/Science/gading-gajah.png" runat="server" />
-                    Apakah nama bagian tubuh gajah yang ditunjuk oleh panah merah?
+                    <asp:Image CssClass="image" ImageUrl="~/Assets/Science/gambar-harimau-kartun.png" runat="server" />
+                    Apakah jenis makanan yang dimakan oleh binatang berikut?
                 </div>
             </div>
-
+            
             <div class="right-container">
                 <div class="answer-selection-container">
                     <div class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
-                        <h3>Telinga</h3>
+                        <img src="../../Assets/Science/rumput%20(Herbivora).png" />
                     </div>
                     <div class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
-                        <h3>Hidung</h3>
-                    </div>
-                    <div class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
-                        <h3>Belalai</h3>
+                        <img src="../../Assets/Science/rumput-daging%20(omnivora).png" />
                     </div>
                     <div ID="correctAnswer" class="answer-horizontal correctAnswer" onmousedown="goodAnswer()">
-                        <h3>Gading</h3>
+                        <img src="../../Assets/Science/daging%20(Karnivora).png"/>
                     </div>
                 </div>
 
