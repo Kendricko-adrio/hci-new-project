@@ -23,6 +23,8 @@ main .login {
 
     main .login .comp {
         margin: 20px 0 20px 0;
+        font-family = Copperplate;
+        font-size = 100%;
     }
 
     main .login .text {

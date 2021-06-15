@@ -20,27 +20,26 @@
         <div class="container">
             <div class="left-container">
                 <div class="soal">
-                    <asp:Image CssClass="image" ImageUrl="~/Assets/Science/gading-gajah.png" runat="server" />
-                    Apakah nama bagian tubuh gajah yang ditunjuk oleh panah merah?
+                    <asp:Image CssClass="image" ImageUrl="~/Assets/Science/gambar-harimau-kartun.png" runat="server" />
+                    Apa jenis makanan yang dimakan hewan tersebut...
                 </div>
             </div>
 
-            <div class="right-container">
+             <div class="right-container">
                 <div class="answer-selection-container">
-                    <div class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
-                        <h3>Telinga</h3>
+                    <div ID="correctAnswer" class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
+                        <h3>Herbivora</h3>
+                    </div>
+                    <div class="answer-horizontal correctAnswer" onmousedown="goodAnswer()">
+                        <h3>Karnivora</h3>
                     </div>
                     <div class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
-                        <h3>Hidung</h3>
+                        <h3>Omnivora</h3>
                     </div>
                     <div class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
-                        <h3>Belalai</h3>
-                    </div>
-                    <div ID="correctAnswer" class="answer-horizontal correctAnswer" onmousedown="goodAnswer()">
-                        <h3>Gading</h3>
+                        <h3>Ovovivipar</h3>
                     </div>
                 </div>
-
                 <div ID="Answer" class="comp-correctAnswer">
                     <div class="comp-correctAnswer-vertical">
                         <div class="comp-correctAnswer-vertical-gambar">
