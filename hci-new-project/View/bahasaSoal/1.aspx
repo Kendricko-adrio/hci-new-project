@@ -44,21 +44,7 @@
                 <div ID="Answer" class="comp-correctAnswer">
                     <div class="comp-correctAnswer-vertical">
                         <div class="comp-correctAnswer-vertical-gambar">
-                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/orange.png" runat="server" />
-                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/orange.png" runat="server" />
-                            2
-                        </div>
-                        <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Tambah.png" runat="server" />
-                        <div class="comp-correctAnswer-vertical-gambar">
-                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/orange.png" runat="server" />
-                            1
-                        </div>
-                        <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/SamaDengan.png" runat="server" />
-                        <div class="comp-correctAnswer-vertical-gambar">
-                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/orange.png" runat="server" />
-                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/orange.png" runat="server" />
-                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/orange.png" runat="server" />
-                            3
+                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Bahasa/soalbahasa1solusi.jpg" runat="server" />
                         </div>
                     </div>
                 </div>
