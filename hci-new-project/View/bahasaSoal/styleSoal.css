@@ -112,6 +112,8 @@ main {
 }
 
 .comp-correctAnswer-vertical-image {
+    margin-top: 30%;
+    margin-bottom: 30%;
     height: 18rem;
     width: 18rem;
 }
