@@ -71,16 +71,24 @@
     <Content Include="Assets\Bahasa\soalbahasa1solusi.jpg" />
     <Content Include="Assets\Bahasa\soalbahasa2.jpg" />
     <Content Include="Assets\Bahasa\soalbahasa2solusi.jpg" />
+    <Content Include="Assets\Bahasa\soalbahasa3.jpg" />
+    <Content Include="Assets\Bahasa\soalbahasa3solusi.jpg" />
+    <Content Include="Assets\Bahasa\soalbahasa4.jpg" />
+    <Content Include="Assets\Bahasa\soalbahasa4solusi.jpg" />
+    <Content Include="Assets\Bahasa\soalbahasa5.jpg" />
+    <Content Include="Assets\Bahasa\soalbahasa5solusi.jpg" />
     <Content Include="Assets\Math\Apple.png" />
     <Content Include="Assets\Science\belalai-gajah.png" />
     <Content Include="Assets\Buzzer.mp3" />
     <Content Include="Assets\Math\Carrot.png" />
+    <Content Include="Assets\Science\belalaisolusi.png" />
     <Content Include="Assets\Science\daging %28Karnivora%29.png" />
     <Content Include="Assets\Science\gading-gajah.png" />
     <Content Include="Assets\happykids.mp3" />
     <Content Include="Assets\Math\Kali.png" />
     <Content Include="Assets\logo-nobg.png" />
     <Content Include="Assets\Math\pembagian.png" />
+    <Content Include="Assets\Science\gadingsolusi.png" />
     <Content Include="Assets\Science\gambar-harimau-kartun.png" />
     <Content Include="Assets\Science\jerapah.png" />
     <Content Include="Assets\Science\kura-kura.jpg" />
@@ -88,6 +96,9 @@
     <Content Include="Assets\Science\rumput-daging %28omnivora%29.png" />
     <Content Include="View\bahasaSoal\1.aspx" />
     <Content Include="View\bahasaSoal\2.aspx" />
+    <Content Include="View\bahasaSoal\3.aspx" />
+    <Content Include="View\bahasaSoal\4.aspx" />
+    <Content Include="View\bahasaSoal\5.aspx" />
     <Content Include="View\bahasaSoal\styleSoal.css" />
     <Content Include="View\css\style.css" />
     <Content Include="View\home\Home.aspx" />
@@ -125,6 +136,27 @@
     </Compile>
     <Compile Include="View\bahasaSoal\2.aspx.designer.cs">
       <DependentUpon>2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\bahasaSoal\3.aspx.cs">
+      <DependentUpon>3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\bahasaSoal\3.aspx.designer.cs">
+      <DependentUpon>3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\bahasaSoal\4.aspx.cs">
+      <DependentUpon>4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\bahasaSoal\4.aspx.designer.cs">
+      <DependentUpon>4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\bahasaSoal\5.aspx.cs">
+      <DependentUpon>5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\bahasaSoal\5.aspx.designer.cs">
+      <DependentUpon>5.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\home\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
