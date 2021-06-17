@@ -77,6 +77,7 @@
     <Content Include="Assets\Bahasa\soalbahasa4solusi.jpg" />
     <Content Include="Assets\Bahasa\soalbahasa5.jpg" />
     <Content Include="Assets\Bahasa\soalbahasa5solusi.jpg" />
+    <Content Include="Assets\logo.png" />
     <Content Include="Assets\Math\Apple.png" />
     <Content Include="Assets\Math\orange.png" />
     <Content Include="Assets\Math\SamaDengan.png" />
@@ -89,7 +90,6 @@
     <Content Include="Assets\Science\gading-gajah.png" />
     <Content Include="Assets\happykids.mp3" />
     <Content Include="Assets\Math\Kali.png" />
-    <Content Include="Assets\logo-nobg.png" />
     <Content Include="Assets\Math\pembagian.png" />
     <Content Include="Assets\Science\gadingsolusi.png" />
     <Content Include="Assets\Science\gambar-harimau-kartun.png" />
@@ -106,10 +106,10 @@
     <Content Include="View\bahasaSoal\3.aspx" />
     <Content Include="View\bahasaSoal\4.aspx" />
     <Content Include="View\bahasaSoal\5.aspx" />
-    <Content Include="View\bahasaSoal\iniStyleBahasa.css" />
+    <Content Include="View\bahasaSoal\styleSoal.css" />
     <Content Include="View\css\style.css" />
     <Content Include="View\home\Home.aspx" />
-    <Content Include="View\home\styleHome.css" />
+    <Content Include="View\home\HomeStyle.css" />
     <Content Include="View\login\Login.aspx" />
     <Content Include="View\login\styleLogin.css" />
     <Content Include="View\mathSoal\1.aspx" />
