@@ -21,12 +21,12 @@
             <div class="comp-soal">
                 <div class="comp-soal-vertical">
                     <div class="comp-soal-vertical-gambar">
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/orange.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/orange.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/orange.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/orange.png" runat="server" />
                     </div>
-                    <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Tambah.png" runat="server" />
-                    <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/orange.png" runat="server" />
-                    <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/SamaDengan.png" runat="server" />
+                    <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Tambah.png" runat="server" />
+                    <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/orange.png" runat="server" />
+                    <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/SamaDengan.png" runat="server" />
                 </div>
             </div>
             <div class="comp-answer">
@@ -47,20 +47,20 @@
                 <div ID="Answer" class="comp-correctAnswer">
                     <div class="comp-correctAnswer-vertical">
                         <div class="comp-correctAnswer-vertical-gambar">
-                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/orange.png" runat="server" />
-                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/orange.png" runat="server" />
+                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/orange.png" runat="server" />
+                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/orange.png" runat="server" />
                             2
                         </div>
-                        <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Tambah.png" runat="server" />
+                        <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Tambah.png" runat="server" />
                         <div class="comp-correctAnswer-vertical-gambar">
-                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/orange.png" runat="server" />
+                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/orange.png" runat="server" />
                             1
                         </div>
-                        <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/SamaDengan.png" runat="server" />
+                        <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/SamaDengan.png" runat="server" />
                         <div class="comp-correctAnswer-vertical-gambar">
-                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/orange.png" runat="server" />
-                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/orange.png" runat="server" />
-                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/orange.png" runat="server" />
+                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/orange.png" runat="server" />
+                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/orange.png" runat="server" />
+                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/orange.png" runat="server" />
                             3
                         </div>
                     </div>

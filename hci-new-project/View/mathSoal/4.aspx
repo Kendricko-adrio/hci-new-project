@@ -95,12 +95,14 @@
                         </div>
                         <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/pembagian.png" runat="server" />
                         <div class="comp-correctAnswer-vertical-gambar">
-                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
-                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
-                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Apple.png" runat="server" />
+                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Apple.png" runat="server" />
+                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Apple.png" runat="server" />
+                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Apple.png" runat="server" />
+                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Apple.png" runat="server" />
                             3
                         </div>
-                        <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/SamaDengan.png" runat="server" />
+                        <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/SamaDengan.png" runat="server" />
                         <div class="comp-correctAnswer-vertical-gambar">
                             <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Apple.png" runat="server" />
                             <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Apple.png" runat="server" />

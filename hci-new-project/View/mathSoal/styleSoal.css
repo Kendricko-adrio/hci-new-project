@@ -40,8 +40,8 @@ main {
                 }
 
                 main .comp .comp-soal .comp-soal-vertical .comp-soal-vertical-image {
-                    height: 150px;
-                    width: 150px;
+                    height: 100px;
+                    width: 100px;
                 }
 
         main .comp .comp-answer {
@@ -123,6 +123,6 @@ main {
                     }
 
                     main .comp .comp-answer .comp-correctAnswer .comp-correctAnswer-vertical .comp-correctAnswer-vertical-image {
-                        height: 150px;
-                        width: 150px;
+                        height: 100px;
+                        width: 100px;
                     }
