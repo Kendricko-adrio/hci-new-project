@@ -92,7 +92,7 @@ main {
     border-radius: 30px;
     display: flex;
     flex-direction: row;
-    height: 70%;
+    height: 100%;
     justify-content: center;
     margin-top: 10%;
     width: 100%;
@@ -112,6 +112,8 @@ main {
 }
 
 .comp-correctAnswer-vertical-image {
-    height: 150px;
-    width: 150px;
+    margin-top: 30%;
+    margin-bottom: 30%;
+    height: 18rem;
+    width: 18rem;
 }
