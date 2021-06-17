@@ -1,6 +1,6 @@
 ﻿* {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 16px;
     margin: 0;
     padding: 0;
 }
@@ -116,4 +116,27 @@ main {
     margin-bottom: 30%;
     height: 18rem;
     width: 18rem;
+}
+
+.col img {
+    height: 15em;
+    width: 30%;
+    border: 3px solid;
+    border-color: rgb(255, 151, 112);
+    border-radius: 30px;
+}
+
+.row {
+    padding-top: 3rem;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+h1:nth-of-type() {
+    background-color: ;
 }

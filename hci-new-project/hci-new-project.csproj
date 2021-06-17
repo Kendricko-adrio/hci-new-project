@@ -125,6 +125,7 @@
     <Content Include="View\scienceSoal\3.aspx" />
     <Content Include="View\scienceSoal\4.aspx" />
     <Content Include="View\scienceSoal\5.aspx" />
+    <Content Include="View\scienceSoal\ScienceLevelSelection.aspx" />
     <Content Include="View\scienceSoal\styleSoalScience.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -262,6 +263,13 @@
     </Compile>
     <Compile Include="View\scienceSoal\5.aspx.designer.cs">
       <DependentUpon>5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\scienceSoal\ScienceLevelSelection.aspx.cs">
+      <DependentUpon>ScienceLevelSelection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\scienceSoal\ScienceLevelSelection.aspx.designer.cs">
+      <DependentUpon>ScienceLevelSelection.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
