@@ -13,7 +13,7 @@
             wrongAudio.play();
         }
     </script>
-    <link href="styleSoal.css" rel="stylesheet" />
+    <link href="styleSoalMath.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <main>
@@ -33,17 +33,17 @@
                 </div>
             </div>
             <div class="comp-answer">
-                <div class="answer-horizontal">
-                    <div ID="correctAnswer" class="answer-horizontal-correctAnswer" onmousedown="goodAnswer()">
+                <div class="answer-horizontal-container">
+                    <div ID="correctAnswer" class="answer-horizontal correctAnswer" onmousedown="goodAnswer()">
                         <h3>4</h3>
                     </div>
-                    <div class="answer-horizontal-wrongAnswer" onmousedown="wrongAnswer()">
+                    <div class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
                         <h3>6</h3>
                     </div>
-                    <div class="answer-horizontal-wrongAnswer" onmousedown="wrongAnswer()">
+                    <div class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
                         <h3>8</h3>
                     </div>
-                    <div class="answer-horizontal-wrongAnswer" onmousedown="wrongAnswer()">
+                    <div class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
                         <h3>1</h3>
                     </div>
                 </div>
