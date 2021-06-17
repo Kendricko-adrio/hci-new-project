@@ -78,6 +78,9 @@
     <Content Include="Assets\Bahasa\soalbahasa5.jpg" />
     <Content Include="Assets\Bahasa\soalbahasa5solusi.jpg" />
     <Content Include="Assets\Math\Apple.png" />
+    <Content Include="Assets\Math\orange.png" />
+    <Content Include="Assets\Math\SamaDengan.png" />
+    <Content Include="Assets\Math\Tambah.png" />
     <Content Include="Assets\Science\belalai-gajah.png" />
     <Content Include="Assets\Buzzer.mp3" />
     <Content Include="Assets\Math\Carrot.png" />
