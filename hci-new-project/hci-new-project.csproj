@@ -90,8 +90,12 @@
     <Content Include="Assets\Math\pembagian.png" />
     <Content Include="Assets\Science\gadingsolusi.png" />
     <Content Include="Assets\Science\gambar-harimau-kartun.png" />
+    <Content Include="Assets\Science\HarimauSolusi.png" />
     <Content Include="Assets\Science\jerapah.png" />
+    <Content Include="Assets\Science\jerapahSolusi.png" />
     <Content Include="Assets\Science\kura-kura.jpg" />
+    <Content Include="Assets\Science\kurakura.png" />
+    <Content Include="Assets\Science\kurakuraSolusi.png" />
     <Content Include="Assets\Science\rumput %28Herbivora%29.png" />
     <Content Include="Assets\Science\rumput-daging %28omnivora%29.png" />
     <Content Include="View\bahasaSoal\1.aspx" />
@@ -99,7 +103,7 @@
     <Content Include="View\bahasaSoal\3.aspx" />
     <Content Include="View\bahasaSoal\4.aspx" />
     <Content Include="View\bahasaSoal\5.aspx" />
-    <Content Include="View\bahasaSoal\styleSoal.css" />
+    <Content Include="View\bahasaSoal\iniStyleBahasa.css" />
     <Content Include="View\css\style.css" />
     <Content Include="View\home\Home.aspx" />
     <Content Include="View\home\styleHome.css" />
@@ -118,7 +122,7 @@
     <Content Include="View\scienceSoal\3.aspx" />
     <Content Include="View\scienceSoal\4.aspx" />
     <Content Include="View\scienceSoal\5.aspx" />
-    <Content Include="View\scienceSoal\styleSoal.css" />
+    <Content Include="View\scienceSoal\styleSoalScience.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
