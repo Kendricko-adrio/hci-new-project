@@ -16,39 +16,37 @@
     <link href="styleSoalScience.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<%--     <main>--%>
-        <div class="container">
-            <div class="left-container">
-                <div class="soal">
-                    <asp:Image ImageUrl="~/Assets/Science/belalai-gajah.png" runat="server" />
-                    Apakah nama bagian tubuh gajah yang ditunjuk oleh panah merah?
+    <div class="container">
+        <div class="left-container">
+            <div class="soal">
+                <asp:Image ImageUrl="~/Assets/Science/belalai-gajah.png" runat="server" />
+                Apakah nama bagian tubuh gajah yang ditunjuk oleh panah merah?
+            </div>
+        </div>
+
+        <div class="right-container">
+            <div class="answer-selection-container">
+                <div class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
+                    <h3>Telinga</h3>
+                </div>
+                <div class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
+                    <h3>Hidung</h3>
+                </div>
+                <div ID="correctAnswer" class="answer-horizontal correctAnswer" onmousedown="goodAnswer()">
+                    <h3>Belalai</h3>
+                </div>
+                <div class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
+                    <h3>Kaki</h3>
                 </div>
             </div>
 
-            <div class="right-container">
-                <div class="answer-selection-container">
-                    <div class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
-                        <h3>Telinga</h3>
-                    </div>
-                    <div class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
-                        <h3>Hidung</h3>
-                    </div>
-                    <div ID="correctAnswer" class="answer-horizontal correctAnswer" onmousedown="goodAnswer()">
-                        <h3>Belalai</h3>
-                    </div>
-                    <div class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
-                        <h3>Kaki</h3>
-                    </div>
-                </div>
-
-                <div ID="Answer" class="comp-correctAnswer">
-                    <div class="comp-correctAnswer-vertical">
-                        <div class="comp-correctAnswer-vertical-gambar">
-                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Science/belalaisolusi.png" runat="server" />
-                        </div>
+            <div ID="Answer" class="comp-correctAnswer">
+                <div class="comp-correctAnswer-vertical">
+                    <div class="comp-correctAnswer-vertical-gambar">
+                        <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Science/belalaisolusi.png" runat="server" />
                     </div>
                 </div>
             </div>
         </div>
-<%--    </main>--%>
+    </div>
 </asp:Content>
