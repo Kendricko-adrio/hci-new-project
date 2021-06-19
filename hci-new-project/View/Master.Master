@@ -4,6 +4,11 @@
 
 <html>
 <head runat="server">
+    <script>
+        var bgsound = new Audio("../../Assets/backgroundsong.mp3");
+
+        bgsound.play();
+    </script>
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>

@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Alphabeth.png" />
+    <Content Include="Assets\backgroundsong.mp3" />
     <Content Include="Assets\Bahasa\soalbahasa1.jpg" />
     <Content Include="Assets\Bahasa\soalbahasa1solusi.jpg" />
     <Content Include="Assets\Bahasa\soalbahasa2.jpg" />
@@ -78,10 +80,13 @@
     <Content Include="Assets\Bahasa\soalbahasa5.jpg" />
     <Content Include="Assets\Bahasa\soalbahasa5solusi.jpg" />
     <Content Include="Assets\logo.png" />
+    <Content Include="Assets\Mangga.png" />
+    <Content Include="Assets\Math.png" />
     <Content Include="Assets\Math\Apple.png" />
     <Content Include="Assets\Math\orange.png" />
     <Content Include="Assets\Math\SamaDengan.png" />
     <Content Include="Assets\Math\Tambah.png" />
+    <Content Include="Assets\Science.png" />
     <Content Include="Assets\Science\belalai-gajah.png" />
     <Content Include="Assets\Buzzer.mp3" />
     <Content Include="Assets\Math\Carrot.png" />
@@ -108,7 +113,6 @@
     <Content Include="View\bahasaSoal\5.aspx" />
     <Content Include="View\bahasaSoal\styleSoal.css" />
     <Content Include="View\css\MainStyle.css" />
-    <Content Include="View\css\style.css" />
     <Content Include="View\home\Home.aspx" />
     <Content Include="View\home\HomeStyle.css" />
     <Content Include="View\login\Login.aspx" />
