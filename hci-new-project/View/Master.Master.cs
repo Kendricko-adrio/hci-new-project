@@ -11,7 +11,7 @@ namespace hci_new_project.View
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
