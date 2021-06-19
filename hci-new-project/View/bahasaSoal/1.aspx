@@ -13,14 +13,14 @@
                 wrongAudio.play();
             }
         </script>
-    <link href="iniStyleBahasa.css" rel="stylesheet" />
+    <link href="styleSoalBahasa.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <main>
+<%--    <main>--%>
         <div class="container">
             <div class="left-container">
                 <div class="soal">
-                    <asp:Image CssClass="image" ImageUrl="~/Assets/Bahasa/soalbahasa1.jpg" runat="server" />
+                    <asp:Image Csslass="image" ImageUrl="~/Assets/Bahasa/soalbahasa1.jpg" runat="server" />
                     Kata kerja yang cocok untuk melengkapi kalimat pada gambar di atas adalah...
                 </div>
             </div>
@@ -50,5 +50,5 @@
                 </div>
             </div>
         </div>
-    </main>
+<%--    </main>--%>
 </asp:Content>
