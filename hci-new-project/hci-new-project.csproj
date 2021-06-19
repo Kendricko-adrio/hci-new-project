@@ -125,7 +125,6 @@
     <Content Include="View\scienceSoal\3.aspx" />
     <Content Include="View\scienceSoal\4.aspx" />
     <Content Include="View\scienceSoal\5.aspx" />
-    <Content Include="View\scienceSoal\styleSoalScience.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
