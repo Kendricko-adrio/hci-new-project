@@ -125,6 +125,7 @@
     <Content Include="View\mathSoal\styleSoalMath.css" />
     <Content Include="View\menu\MenuBahasa.aspx" />
     <Content Include="View\menu\MenuMath.aspx" />
+    <Content Include="View\menu\MenuScience.aspx" />
     <Content Include="View\menu\MenuStyle.css" />
     <Content Include="View\register\Register.aspx" />
     <Content Include="View\register\styleRegister.css" />
@@ -242,6 +243,13 @@
     </Compile>
     <Compile Include="View\menu\MenuMath.aspx.designer.cs">
       <DependentUpon>MenuMath.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\menu\MenuScience.aspx.cs">
+      <DependentUpon>MenuScience.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\menu\MenuScience.aspx.designer.cs">
+      <DependentUpon>MenuScience.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\register\Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
