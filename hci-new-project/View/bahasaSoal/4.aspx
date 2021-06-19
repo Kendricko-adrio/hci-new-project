@@ -13,7 +13,7 @@
                 wrongAudio.play();
             }
         </script>
-    <link href="styleSoalBahasa.css" rel="stylesheet" />
+    <link href="iniSoalBahasa.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
         <main>

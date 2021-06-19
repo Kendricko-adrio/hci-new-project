@@ -5,13 +5,23 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <main>
-        <div class="login d-flex align-items-center rounded-3" style="width : 35%; height : 37%">
-            <h1 class="comp" >LOGIN</h1>
-            <input class="form-control w-75 rounded-pill" type="text" name="name" placeholder="Username" value="" />
+        <div class="login d-flex align-items-center" style="width : 47%; height : 55%; border-radius: 30px;">
+            <h1 class="comp" style="font-size: 75px" >LOGIN</h1>
+            <input class="form-control" style=
+                "
+                height: 15%; 
+                width: 90%;
+                color:aquamarine yellow; 
+                border-radius: 90px; 
+                background-color: whitesmoke;
+                border: groove;
+                border-color: lightgray;
+                "
+                type="text" name="name" placeholder="Username" value="" />
             <br />
-            <input class="form-control w-75 rounded-pill" type="password" name="name" placeholder="Password" value="" />
+            <input class="form-control w-75" type="password" name="name" placeholder="Password" value="" />
             <br />
-            <input class="btn btn-primary w-25 rounded-pill" type="submit" name="name" value="Login" />
+            <input class="btn btn-primary w-75"  type="submit" name="name" value="Login" />
         </div>
     </main>
 </asp:Content>

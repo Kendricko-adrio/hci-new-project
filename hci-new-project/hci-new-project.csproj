@@ -117,7 +117,7 @@
     <Content Include="View\mathSoal\3.aspx" />
     <Content Include="View\mathSoal\4.aspx" />
     <Content Include="View\mathSoal\5.aspx" />
-    <Content Include="View\mathSoal\styleSoal.css" />
+    <Content Include="View\mathSoal\styleSoalMath.css" />
     <Content Include="View\register\Register.aspx" />
     <Content Include="View\register\styleRegister.css" />
     <Content Include="View\scienceSoal\2.aspx" />
