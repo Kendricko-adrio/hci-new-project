@@ -16,7 +16,7 @@
     <link href="styleSoalScience.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <main>
+<%--     <main>--%>
         <div class="container">
             <div class="left-container">
                 <div class="soal">
@@ -50,5 +50,5 @@
                 </div>
             </div>
         </div>
-    </main>
+<%--    </main>--%>
 </asp:Content>
