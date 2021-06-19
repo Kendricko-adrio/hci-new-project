@@ -12,19 +12,22 @@ main {
 
     main .comp {
         display: flex;
-        margin: 5%;
-        height: 95%;
         flex-direction: row;
+        height: 70%;
+        margin: 5%;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
     }
 
         main .comp .comp-soal {
             display: flex;
+            flex-direction:row;
             justify-content: center;
-            flex-direction: row;
-            margin-right: 5%;
-            background-color: blue;
-            border-radius: 30px;
+            align-content: center;
+            background-color: #70ddff;
+            border-radius: 1rem;
             height: 100%;
+            margin-right: 5%;
             width: 50%;
         }
 
@@ -46,68 +49,57 @@ main {
 
         main .comp .comp-answer {
             display: flex;
-            margin-left: 5%;
-            height: 100%;
-            width: 50%;
             flex-direction: column;
+            height: 100%;
+            margin-left: 5%;
+            width: 50%;
         }
 
-            main .comp .comp-answer .answer-horizontal {
+            main .comp .comp-answer .answer-horizontal-container {
+                align-items: center;
                 display: flex;
                 flex-direction: row;
                 height: 30%;
                 justify-content: space-around;
-                align-items: center;
             }
 
-                main .comp .comp-answer .answer-horizontal .answer-horizontal-correctAnswer {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    margin: 2%;
-                    height: 90%;
-                    width: 90%;
-                    border-radius: 30px;
-                    background-color: green;
-                }
+            main .comp .comp-answer .answer-horizontal-container .answer-horizontal {
+                display: flex;
+                align-items: center;
+                border-radius: 30px;
+                background-color: #baf9d4;
+                height: 90%;
+                justify-content: center;
+                margin: 2%;
+                width: 90%;
+            }
 
-                main .comp .comp-answer .answer-horizontal .answer-horizontal-wrongAnswer {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    margin: 2%;
-                    height: 90%;
-                    width: 90%;
-                    border-radius: 30px;
-                    background-color: green;
-                }
+            main .comp .comp-answer .answer-horizontal-container .correctAnswer:hover {
+                background-color: #fef482;
+            }
 
-                main .comp .comp-answer .answer-horizontal .answer-horizontal-wrongAnswer:hover {
-                    background-color: darkgreen;
-                }
+            main .comp .comp-answer .answer-horizontal-container .wrongAnswer:hover {
+                background-color: #fef482;
+            }
 
-                main .comp .comp-answer .answer-horizontal .answer-horizontal-correctAnswer:hover {
-                    background-color: darkgreen;
-                }
+            main .comp .comp-answer .answer-horizontal-container .correctAnswer:active {
+                background-color: #d1f4df;
+            }
 
-                main .comp .comp-answer .answer-horizontal .answer-horizontal-correctAnswer:active {
-                    background-color: lime;
-                }
-
-                main .comp .comp-answer .answer-horizontal .answer-horizontal-wrongAnswer:active {
-                    background-color: red;
-                }
+            main .comp .comp-answer .answer-horizontal-container .wrongAnswer:active {
+                background-color: #ff9ac9;
+            }
 
             main .comp .comp-answer .comp-correctAnswer {
-                display: flex;
-                justify-content: center;
-                flex-direction: row;
+                background-color: #ff64c1;
                 border-radius: 30px;
-                margin-top:10%;
+                display: flex;
+                flex-direction: row;
                 height: 70%;
+                justify-content: center;
+                margin-top: 10%;
                 width: 100%;
-                background-color: red;
-                visibility:hidden;
+                visibility: hidden;
             }
 
                 main .comp .comp-answer .comp-correctAnswer .comp-correctAnswer-vertical {

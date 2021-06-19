@@ -3,7 +3,19 @@
     padding: 0;
 }
 
-.middle-container {
+a img {
+    height: 30em;
+    width: 100%;
+    border: 3px solid;
+    border-color: rgb(255, 151, 112);
+    border-radius: 30px;
+}
+
+.row {
+    padding-top: 12.5rem;   
+}
+
+/*.middle-container {
     padding-top: 12.5rem;
     padding-bottom: 12.5rem;
     display: flex;
@@ -41,4 +53,4 @@
     position: relative;
     min-height: 19rem;
     max-width: 100%;
-}
+}*/
