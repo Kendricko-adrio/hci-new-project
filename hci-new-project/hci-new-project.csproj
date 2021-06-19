@@ -68,7 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Alphabeth.png" />
-    <Content Include="Assets\backgroundsong.mp3" />
     <Content Include="Assets\Bahasa\soalbahasa1.jpg" />
     <Content Include="Assets\Bahasa\soalbahasa1solusi.jpg" />
     <Content Include="Assets\Bahasa\soalbahasa2.jpg" />
