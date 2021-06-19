@@ -1,0 +1,37 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+}
+
+main div div img{
+    width: 50%;
+    border: 3px solid;
+    border-color: rgb(255, 151, 112);
+    border-radius: 30px;
+}
+
+.col img {
+    height: 35em;
+    width: 30%;
+    border: 3px solid;
+    border-color: rgb(255, 151, 112);
+    border-radius: 30px;
+}
+
+.row {
+    padding-top: 3rem;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+h1:nth-of-type() {
+    background-color:;
+}

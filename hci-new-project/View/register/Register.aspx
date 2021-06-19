@@ -5,47 +5,56 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <main>
-        <div class="login d-flex align-items-center" style="width : 47%; height : 55%; border-radius: 30px;">
+        <div class="login d-flex align-items-center" style="width : 47%; height : 60%; border-radius: 30px;">
             <h1 class="comp align-items-end" style="font-size: 75px">Register</h1>
             <input class="form-control" style=
                 "
-                height: 15%; 
+                height: 25%; 
                 width: 90%;
                 color:aquamarine yellow; 
                 border-radius: 90px; 
                 background-color: whitesmoke;
                 border: groove;
                 border-color: lightgray;
+                padding-top: 0.75rem;
+                padding-bottom: 0.75rem;
+                margin-bottom: 1rem;
                 " 
                 type="text" name="name" placeholder="Name" value="" />
-            <br />
+            <%--<br />--%>
             <input class="form-control" style=
                 "
-                height: 15%; 
+                height: 25%; 
                 width: 90%;
                 color:aquamarine yellow; 
                 border-radius: 90px; 
                 background-color: whitesmoke;
                 border: groove;
                 border-color: lightgray;
+                padding-top: 0.75rem;
+                padding-bottom: 0.75rem;
+                margin-bottom: 1rem;
                 " 
                 type="text" name="name" placeholder="Username" value="" />
-            <br />
+            <%--<br />--%>
             <input class="form-control" style=
                 "
-                height: 15%; 
+                height: 25%; 
                 width: 90%;
                 color:aquamarine yellow; 
                 border-radius: 90px; 
                 background-color: whitesmoke;
                 border: groove;
                 border-color: lightgray;
+                padding-top: 0.75rem;
+                padding-bottom: 0.75rem;
+                margin-bottom: 1rem;
                 " 
                 type="password" name="name" placeholder="Password" value="" />
-            <br />
+            <%--<br />--%>
             <input class="btn btn-primary" style=
                 "
-                height: 15%; 
+                height: 25%; 
                 width: 30%;
                 color:aquamarine yellow; 
                 border-radius: 90px; 
@@ -54,7 +63,7 @@
                 font-size: 30px;
                 font-weight: 100;
                 " 
-                type="submit" name="name" value="Login" />
+                type="submit" name="name" value="Register" />
         </div>
     </main>
 </asp:Content>
