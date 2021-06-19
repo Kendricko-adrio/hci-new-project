@@ -18,9 +18,10 @@
                 border-color: lightgray;
                 padding-top: 0.75rem;
                 padding-bottom: 0.75rem;
+                margin-bottom: 1rem;
                 " 
                 type="text" name="name" placeholder="Name" value="" />
-            <br />
+            <%--<br />--%>
             <input class="form-control" style=
                 "
                 height: 25%; 
@@ -32,9 +33,10 @@
                 border-color: lightgray;
                 padding-top: 0.75rem;
                 padding-bottom: 0.75rem;
+                margin-bottom: 1rem;
                 " 
                 type="text" name="name" placeholder="Username" value="" />
-            <br />
+            <%--<br />--%>
             <input class="form-control" style=
                 "
                 height: 25%; 
@@ -46,9 +48,10 @@
                 border-color: lightgray;
                 padding-top: 0.75rem;
                 padding-bottom: 0.75rem;
+                margin-bottom: 1rem;
                 " 
                 type="password" name="name" placeholder="Password" value="" />
-            <br />
+            <%--<br />--%>
             <input class="btn btn-primary" style=
                 "
                 height: 25%; 
