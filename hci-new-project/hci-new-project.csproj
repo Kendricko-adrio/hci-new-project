@@ -68,25 +68,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Alphabeth.png" />
-    <Content Include="Assets\Bahasa\soalbahasa1.jpg" />
     <Content Include="Assets\Bahasa\soalbahasa1.png" />
-    <Content Include="Assets\Bahasa\soalbahasa1solusi.jpg" />
     <Content Include="Assets\Bahasa\soalbahasa1solusi.png" />
-    <Content Include="Assets\Bahasa\soalbahasa2.jpg" />
     <Content Include="Assets\Bahasa\soalbahasa2.png" />
-    <Content Include="Assets\Bahasa\soalbahasa2solusi.jpg" />
     <Content Include="Assets\Bahasa\soalbahasa2solusi.png" />
-    <Content Include="Assets\Bahasa\soalbahasa3.jpg" />
     <Content Include="Assets\Bahasa\soalbahasa3.png" />
-    <Content Include="Assets\Bahasa\soalbahasa3solusi.jpg" />
     <Content Include="Assets\Bahasa\soalbahasa3solusi.png" />
-    <Content Include="Assets\Bahasa\soalbahasa4.jpg" />
     <Content Include="Assets\Bahasa\soalbahasa4.png" />
-    <Content Include="Assets\Bahasa\soalbahasa4solusi.jpg" />
     <Content Include="Assets\Bahasa\soalbahasa4solusi.png" />
-    <Content Include="Assets\Bahasa\soalbahasa5.jpg" />
     <Content Include="Assets\Bahasa\soalbahasa5.png" />
-    <Content Include="Assets\Bahasa\soalbahasa5solusi.jpg" />
     <Content Include="Assets\Bahasa\soalbahasa5solusi.png" />
     <Content Include="Assets\logo.png" />
     <Content Include="Assets\Mangga.png" />
