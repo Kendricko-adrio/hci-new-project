@@ -28,16 +28,16 @@
         <div class="right-custom-container">
             <div class="answer-selection-container">
                 <div class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
-                    <h3>Tugas</h3>
+                    <p class="h2">Tugas</p>
                 </div>
                 <div ID="correctAnswer" class="answer-horizontal correctAnswer" onmousedown="goodAnswer()">
-                    <h3>Lagu</h3>
+                    <p class="h2">Lagu</p>
                 </div>
                 <div class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
-                    <h3>Foto</h3>
+                    <p class="h2">Foto</p>
                 </div>
                 <div class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
-                    <h3>Telur</h3>
+                    <p class="h2">Telur</p>
                 </div>
             </div>
 
