@@ -85,6 +85,7 @@
                             <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Apple.png" runat="server" />
                             <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Apple.png" runat="server" />
                             <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Apple.png" runat="server" />
+                            1
                         </div>
                         <div class="comp-correctAnswer-vertical-gambar">
                             <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Apple.png" runat="server" />
@@ -92,11 +93,10 @@
                             <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Apple.png" runat="server" />
                             <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Apple.png" runat="server" />
                             <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Apple.png" runat="server" />
+                            5
                         </div>
                         <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/pembagian.png" runat="server" />
                         <div class="comp-correctAnswer-vertical-gambar">
-                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Apple.png" runat="server" />
-                            <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Apple.png" runat="server" />
                             <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Apple.png" runat="server" />
                             <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Apple.png" runat="server" />
                             <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/Apple.png" runat="server" />

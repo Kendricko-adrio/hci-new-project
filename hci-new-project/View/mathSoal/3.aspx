@@ -25,6 +25,11 @@
                         <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                    </div>
+                    <div class="comp-soal-vertical-gambar">
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                     </div>
                     <div class="comp-soal-vertical-gambar">
@@ -32,17 +37,8 @@
                         <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                     </div>
                     <div class="comp-soal-vertical-gambar">
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
-                    </div>
-                    <div class="comp-soal-vertical-gambar">
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
@@ -50,7 +46,6 @@
                     </div>
                     <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/pembagian.png" runat="server" />
                     <div class="comp-soal-vertical-gambar">
-                        <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image class="comp-soal-vertical-image" ImageUrl="~/Assets/Math/Carrot.png" runat="server" />

@@ -27,10 +27,10 @@
 
             <div class="right-custom-container">
             <div class="answer-selection-container">
-                <div class="answer-horizontal correctAnswer" onmousedown="goodAnswer()">
+                <div class="answer-horizontal correctAnswer" onmousedown="wrongAnswer()">
                     <p class="h2">Herbivora</p>
                 </div>
-                <div ID="correctAnswer" class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
+                <div ID="correctAnswer" class="answer-horizontal wrongAnswer" onmousedown="goodAnswer()">
                     <p class="h2">Karnivora</p>
                 </div>
                 <div class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">

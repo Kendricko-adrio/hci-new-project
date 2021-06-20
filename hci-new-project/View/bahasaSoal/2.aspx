@@ -33,10 +33,10 @@
                 <div class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
                     <p class="h2">Menyiram</p>
                 </div>
-                <div ID="correctAnswer" class="answer-horizontal correctAnswer" onmousedown="goodAnswer()">
+                <div ID="correctAnswer" class="answer-horizontal correctAnswer" onmousedown="wrongAnswer()">
                     <p class="h2">Menendang</p>
                 </div>
-                <div class="answer-horizontal wrongAnswer" onmousedown="wrongAnswer()">
+                <div class="answer-horizontal wrongAnswer" onmousedown="goodAnswer()">
                     <p class="h2">Melukis</p>
                 </div>
             </div>
