@@ -34,6 +34,7 @@ a:hover {
     flex-direction: row;
     height: 70%;
     margin: 5%;
+    margin-bottom: 2%;
     padding: 3rem;
 }
 
@@ -133,8 +134,6 @@ a:hover {
 }
 
 .comp-correctAnswer-vertical-image {
-    margin-top: 30%;
-    margin-bottom: 30%;
     height: 18rem;
-    width: 18rem;
+    width: 25rem;
 }
