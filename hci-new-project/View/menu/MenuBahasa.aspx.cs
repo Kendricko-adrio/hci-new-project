@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace hci_new_project.View.menu
 {
-    public partial class Menu : System.Web.UI.Page
+    public partial class MenuBahasa : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
