@@ -44,7 +44,7 @@
                 </div>
                 <asp:Image ImageUrl="~/Assets/Math/pembagian.png" runat="server" />
                 <div class="comp-soal-vertical">
-                    ....
+                    <p class="h1">.....</p>
                 </div>
                 <asp:Image ImageUrl="~/Assets/Math/SamaDengan.png" runat="server" />
                 <div class="comp-soal-vertical">

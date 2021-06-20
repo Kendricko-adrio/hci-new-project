@@ -26,7 +26,9 @@
                     <asp:Image ImageUrl="~/Assets/Math/orange.png" runat="server" />
                 </div>
                 <asp:Image ImageUrl="~/Assets/Math/Tambah.png" runat="server" />
-                <asp:Image ImageUrl="~/Assets/Math/orange.png" runat="server" />
+                <div class="comp-soal-vertical">
+                    <asp:Image ImageUrl="~/Assets/Math/orange.png" runat="server" />
+                </div>
                 <asp:Image ImageUrl="~/Assets/Math/SamaDengan.png" runat="server" />
             </div>
         </div>
@@ -50,7 +52,7 @@
                 <div class="comp-correctAnswer-vertical">
                     <div class="comp-correctAnswer-vertical-gambar">
                         <asp:Image ImageUrl="~/Assets/Math/orange.png" runat="server" />
-                        <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Math/orange.png" runat="server" />
+                        <asp:Image ImageUrl="~/Assets/Math/orange.png" runat="server" />
                         2
                     </div>
                     <asp:Image ImageUrl="~/Assets/Math/Tambah.png" runat="server" />

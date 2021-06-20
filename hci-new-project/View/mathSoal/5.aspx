@@ -49,7 +49,7 @@
                     </div>
                     <asp:Image ImageUrl="~/Assets/Math/SamaDengan.png" runat="server" />
                     <div class="comp-soal-vertical-gambar">
-                        .....
+                        <p class="h1">.....</p>
                     </div>
                 </div>
             </div>
