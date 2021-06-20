@@ -1,4 +1,5 @@
 ﻿using hci_new_project.Controller;
+using hci_new_project.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,10 @@ namespace hci_new_project.View.login
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if(Session["user"] != null || Request.Cookies["user"] != null)
+            {
+                Response.Redirect("~/View/home/Home.aspx");
+            }
         }
 
         protected void btnLogin_Click(object sender, EventArgs e)
@@ -20,9 +24,10 @@ namespace hci_new_project.View.login
             string username = txtLogin.Text;
             string password = txtPassword.Text;
 
-            bool isLogin = UserController.loginUser(username, password);
-            if (isLogin)
+            User isLogin = UserController.loginUser(username, password);
+            if (isLogin != null)
             {
+                Session["user"] = isLogin;
                 Response.Redirect("~/View/home/Home.aspx");
             }
         }

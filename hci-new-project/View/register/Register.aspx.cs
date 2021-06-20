@@ -12,7 +12,10 @@ namespace hci_new_project.View.register
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["user"] == null && Request.Cookies["user"] == null)
+            {
+                Response.Redirect("~/View/home/Home.aspx");
+            }
         }
 
         protected void btnRegister_Click(object sender, EventArgs e)
