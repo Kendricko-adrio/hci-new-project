@@ -43,8 +43,8 @@ main .comp .comp-soal .comp-soal-vertical .comp-soal-vertical-gambar {
 }
 
 main .comp .comp-soal .comp-soal-vertical .comp-soal-vertical-image {
-    height: 100px;
-    width: 100px;
+    height: 10%;
+    width: 10%;
 }
 
 main .comp .comp-answer {
@@ -114,7 +114,12 @@ main .comp .comp-answer .comp-correctAnswer .comp-correctAnswer-vertical .comp-c
     align-items:center;
 }
 
+    main .comp .comp-soal .comp-soal-vertical .comp-soal-vertical-gambar .comp-soal-vertical-image {
+        height: 10%;
+        width: 10%;
+    }
+
 main .comp .comp-answer .comp-correctAnswer .comp-correctAnswer-vertical .comp-correctAnswer-vertical-image {
-    height: 100px;
-    width: 100px;
+    height: 10%;
+    width: 10%;
 }
