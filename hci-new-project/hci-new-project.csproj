@@ -110,6 +110,7 @@
     <Content Include="View\bahasaSoal\3.aspx" />
     <Content Include="View\bahasaSoal\4.aspx" />
     <Content Include="View\bahasaSoal\5.aspx" />
+    <Content Include="View\bahasaSoal\styleUntukSoalBahasa.css" />
     <Content Include="View\css\MainStyle.css" />
     <Content Include="View\home\Home.aspx" />
     <Content Include="View\home\HomeStyle.css" />
