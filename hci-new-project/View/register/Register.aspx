@@ -7,7 +7,8 @@
     <main>
         <div class="login d-flex align-items-center" style="width : 47%; height : 60%; border-radius: 30px;">
             <h1 class="comp align-items-end" style="font-size: 75px">Register</h1>
-            <input class="form-control" style=
+
+            <asp:TextBox ID="txtName" runat="server" style=
                 "
                 height: 25%; 
                 width: 90%;
@@ -20,9 +21,10 @@
                 padding-bottom: 0.75rem;
                 margin-bottom: 1rem;
                 " 
-                type="text" name="name" placeholder="Name" value="" />
-            <%--<br />--%>
-            <input class="form-control" style=
+                CssClass="form-control"
+                type="text" placeholder="Name"
+                ></asp:TextBox>
+            <asp:TextBox ID="txtUsername" runat="server" style=
                 "
                 height: 25%; 
                 width: 90%;
@@ -35,9 +37,10 @@
                 padding-bottom: 0.75rem;
                 margin-bottom: 1rem;
                 " 
-                type="text" name="name" placeholder="Username" value="" />
-            <%--<br />--%>
-            <input class="form-control" style=
+                CssClass="form-control"
+                type="text" placeholder="Username"
+                ></asp:TextBox>
+            <asp:TextBox ID="txtPassword" runat="server" style=
                 "
                 height: 25%; 
                 width: 90%;
@@ -50,9 +53,12 @@
                 padding-bottom: 0.75rem;
                 margin-bottom: 1rem;
                 " 
-                type="password" name="name" placeholder="Password" value="" />
+                CssClass="form-control"
+                type="password" placeholder="Password"
+                ></asp:TextBox>
             <%--<br />--%>
-            <input class="btn btn-primary" style=
+            <%--<br />--%>
+            <asp:Button ID="btnRegister" runat="server" Text="Register"  style=
                 "
                 height: 25%; 
                 width: 30%;
@@ -63,7 +69,9 @@
                 font-size: 30px;
                 font-weight: 100;
                 " 
-                type="submit" name="name" value="Register" />
+                class="btn btn-primary" 
+                OnClick="btnRegister_Click"
+                />
         </div>
     </main>
 </asp:Content>

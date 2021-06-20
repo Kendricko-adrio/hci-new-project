@@ -20,7 +20,7 @@
     <div class="custom-container">
         <div class="left-custom-container">
             <div class="soal">
-                <asp:Image CssClass="image" ImageUrl="~/Assets/Bahasa/soalbahasa3.jpg" runat="server" />
+                <asp:Image CssClass="image" ImageUrl="~/Assets/Bahasa/soalbahasa3.png" runat="server" />
                 Kata benda yang cocok untuk melengkapi kalimat di atas adalah...
             </div>
         </div>
@@ -44,7 +44,7 @@
             <div ID="Answer" class="comp-correctAnswer">
                 <div class="comp-correctAnswer-vertical">
                     <div class="comp-correctAnswer-vertical-gambar">
-                        <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Bahasa/soalbahasa3solusi.jpg" runat="server" />
+                        <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Bahasa/soalbahasa3solusi.png" runat="server" />
                     </div>
                 </div>
             </div>

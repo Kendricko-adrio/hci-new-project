@@ -20,7 +20,7 @@
     <div class="custom-container">
         <div class="left-custom-container">
             <div class="soal">
-                <asp:Image ImageUrl="~/Assets/Bahasa/soalbahasa1.jpg" runat="server" />
+                <asp:Image ImageUrl="~/Assets/Bahasa/soalbahasa1.png" runat="server" />
                 Kata kerja yang cocok untuk melengkapi kalimat pada gambar di atas adalah...
             </div>
         </div>
@@ -44,7 +44,7 @@
             <div ID="Answer" class="comp-correctAnswer">
                 <div class="comp-correctAnswer-vertical">
                     <div class="comp-correctAnswer-vertical-gambar">
-                        <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Bahasa/soalbahasa1solusi.jpg" runat="server" />
+                        <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Bahasa/soalbahasa1solusi.png" runat="server" />
                     </div>
                 </div>
             </div>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using hci_new_project.Controller;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,19 @@ namespace hci_new_project.View.register
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["user"] == null && Request.Cookies["user"] == null)
+            {
+                Response.Redirect("~/View/home/Home.aspx");
+            }
+        }
 
+        protected void btnRegister_Click(object sender, EventArgs e)
+        {
+            string name = txtName.Text;
+            string username = txtUsername.Text;
+            string password = txtPassword.Text;
+
+            UserController.registerUser(name, username, password);
         }
     }
 }

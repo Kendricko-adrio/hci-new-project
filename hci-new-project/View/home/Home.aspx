@@ -8,17 +8,17 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col px-md-5">
-                    <a href="#">
+                    <a href="../menu/MenuMath.aspx">
                         <asp:Image ImageUrl="../../Assets/Math.png" runat="server" />
                     </a>
                 </div>
                 <div class="col px-md-5">
-                    <a href="#">
+                    <a href="../menu/MenuScience.aspx">
                         <asp:Image ImageUrl="../../Assets/Science.png" runat="server" />
                     </a>
                 </div>
                 <div class="col px-md-5">
-                    <a href="#">
+                    <a href="../menu/MenuBahasa.aspx">
                         <asp:Image ImageUrl="../../Assets/Alphabeth.png" runat="server" />
                     </a>
                 </div>
