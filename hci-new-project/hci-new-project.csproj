@@ -121,7 +121,7 @@
     <Content Include="View\mathSoal\3.aspx" />
     <Content Include="View\mathSoal\4.aspx" />
     <Content Include="View\mathSoal\5.aspx" />
-    <Content Include="View\mathSoal\styleSoalMath.css" />
+    <Content Include="View\mathSoal\styleUntukSoalMath.css" />
     <Content Include="View\menu\MenuBahasa.aspx" />
     <Content Include="View\menu\MenuMath.aspx" />
     <Content Include="View\menu\MenuScience.aspx" />
