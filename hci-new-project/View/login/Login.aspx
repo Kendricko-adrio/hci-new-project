@@ -36,7 +36,7 @@
                 ></asp:TextBox>
 
             <br />
-            <asp:Button ID="btnLogin" runat="server" Text="Button" 
+            <asp:Button ID="btnLogin" runat="server" Text="Login" 
                 CssClass="btn btn-primary" style=
                 "
                 height: 15%; 
