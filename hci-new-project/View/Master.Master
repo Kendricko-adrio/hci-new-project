@@ -12,7 +12,7 @@
 <body>
     <form id="form1" runat="server" class="server">
         <nav class="navbar-custom">
-            <a href="#">
+            <a href="../../View/home/home.aspx">
                 <asp:Image ImageUrl="~/Assets/logo.png" runat="server" class="logo" />
             </a>
         </nav>
