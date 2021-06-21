@@ -46,7 +46,7 @@
             <div ID="Answer" class="comp-correctAnswer">
                 <div class="comp-correctAnswer-vertical">
                     <div class="comp-correctAnswer-vertical-gambar">
-                        <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~/Assets/Science/belalaisolusi.png" runat="server" />
+                        <asp:Image class="comp-correctAnswer-vertical-image" ImageUrl="~\Assets\Science\belalaisolusi.png" runat="server" />
                     </div>
                 </div>
             </div>
