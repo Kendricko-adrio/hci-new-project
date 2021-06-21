@@ -117,7 +117,7 @@
         </div>
     </div>
     <div class="d-flex flex-row justify-content-center align-items-center">
-        <div style="visibility: visible">
+        <div class="navigation" style="visibility: visible">
             <a href="3.aspx" class="previous round" style="margin-bottom: 1.65rem;font-size: 25px; text-decoration: none">◄</a>
         </div>
 
@@ -130,7 +130,7 @@
             </div>
         </div>
 
-        <div>
+        <div class="navigation">
             <a href="5.aspx" class="next round" style="margin-bottom: 1.65rem; font-weight: bolder; font-size: 25px; text-decoration: none">►</a>
         </div>
     </div>
