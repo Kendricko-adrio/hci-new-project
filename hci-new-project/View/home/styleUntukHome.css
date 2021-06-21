@@ -1,0 +1,11 @@
+﻿.course-select img {
+    height: 30em;
+    width: 100%;
+    border: 3px solid;
+    border-color: rgb(255, 151, 112);
+    border-radius: 30px;
+}
+
+.row {
+    padding-top: 12.5rem;
+}
