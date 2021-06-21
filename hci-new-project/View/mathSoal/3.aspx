@@ -77,26 +77,29 @@
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <p>&nbsp</p>
                     </div>
                     <div class="comp-correctAnswer-vertical-gambar">
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
-                        1
+                        16
                     </div>
                     <div class="comp-correctAnswer-vertical-gambar">
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
-                        6
+                        <p>&nbsp</p>
+                        
                     </div>
                     <div class="comp-correctAnswer-vertical-gambar">
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <p>&nbsp</p>
                     </div>
                     <asp:Image ImageUrl="~/Assets/Math/pembagian.png" runat="server" />
                     <div class="comp-correctAnswer-vertical-gambar">
