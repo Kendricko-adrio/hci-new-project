@@ -13,6 +13,10 @@ body, html, .server {
     background-color: rgb(255, 151, 112);
 }
 
+.navbar-custom a:hover {
+    text-decoration: none;
+}
+
 .logo {
     height: 3em;
     margin: 0.5em 5em 0.5em 5em;
