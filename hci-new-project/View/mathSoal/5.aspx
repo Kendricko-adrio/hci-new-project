@@ -74,20 +74,21 @@
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
+                        <p>&nbsp</p>
                     </div>
                     <div class="comp-correctAnswer-vertical-gambar">
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
-                        1
+                        12
                     </div>
                     <div class="comp-correctAnswer-vertical-gambar">
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
                         <asp:Image ImageUrl="~/Assets/Math/Carrot.png" runat="server" />
-                        2
+                        <p>&nbsp</p>
                     </div>
                     <asp:Image ImageUrl="~/Assets/Math/pembagian.png" runat="server" />
                     <div class="comp-correctAnswer-vertical-gambar">
