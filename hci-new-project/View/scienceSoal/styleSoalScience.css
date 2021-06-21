@@ -58,7 +58,6 @@
 }
 
 .soal img {
-    background-color: #ffff;
     height: 25rem;
     margin-bottom: 1rem;
     width: 25rem;
@@ -83,7 +82,7 @@
 .answer-horizontal {
     align-items: center;
     border-radius: 30px;
-    background-color: #C8D1F9;
+    background-color: #D1F4DF;
     display: flex;
     height: 90%;
     justify-content: center;
@@ -110,7 +109,7 @@
 }
 
 .comp-correctAnswer {
-    background-color: #ff64c1;
+    background-color: #C8D1F9;
     border-radius: 30px;
     display: flex;
     flex-direction: row;
